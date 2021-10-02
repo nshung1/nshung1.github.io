@@ -1,0 +1,17 @@
+@media (max-width: 740px) {
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #header .searchIcon {
+        display: none;
+    }
+    #mobile-menu {
+        display: block;
+    }
+}
