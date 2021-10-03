@@ -61,7 +61,6 @@ html {
     height: 46px;
     background-color: black;
     z-index: 1;
-    overflow: hidden;
 }
 #nav {
     display: inline-block;
@@ -184,7 +183,7 @@ html {
     text-align: justify;
     line-height: 1.4;
     margin-top: 15px;
-    margin-bottom: 47px;
+    margin-bottom: 32px;
 }
 
 #content .membername {
@@ -259,6 +258,7 @@ html {
     padding: 11px 16px;
     margin-top: 15px;
     border: none;
+    text-align: center;
 }
 .ticketbutton:hover {
     background-color: #ccc;
@@ -353,6 +353,15 @@ a.modal-anchor {
     line-height: 1.5;
     font-size: 18px;
 }
+
+.contact-details a {
+    opacity: 0.8;
+}
+
+.contact-details a:hover {
+    opacity: 1;
+}
+
 .contact-details i[class*="ti-"] {
     width: 30px;
     display: inline-block;
